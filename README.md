@@ -38,20 +38,24 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   
     ![image](https://github.com/gialiubc/credit-risk-classification/assets/141379548/edd532e0-677c-4b56-8e67-4b1e9a6767ba)
 
-    The balanced accuracy score of Model 1 is 0.952, the precision rate is 1.00 for `0` and 0.85 for `1`, the recall rate is 0.99 for `0` and 0.91 for `1`.
+    * The balanced accuracy score of Model 1 is 0.952;
+    * The precision rate is 1.00 for `0` and 0.85 for `1`;
+    * The recall rate is 0.99 for `0` and 0.91 for `1`.
     
 * Machine Learning Model 2: Logistic Regression with Resampled Data
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
     ![image](https://github.com/gialiubc/credit-risk-classification/assets/141379548/6760e9ae-92c7-43ab-bfa4-76458a97ca0e)
   
-    The balanced accuracy score of Model 2 is 0.994, the precision rate is 1.00 for `0` and 0.84 for `1`, the recall rate is 0.99 for `0` and 0.99 for `1`.
+    * The balanced accuracy score of Model 2 is 0.994;
+    * The precision rate is 1.00 for `0` and 0.84 for `1`;
+    * The recall rate is 0.99 for `0` and 0.99 for `1`.
 
 ### Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Our purpose is to accurately detect high-risk loans, so we care more about the return of false negative than false positive, because we don't want to overlook any risky loan. As we can see from the performance evaluation results, Model 2 performs better than Model 1 with higher recall rate, indicating lower false negative prediction. However, we need to take into account the set back of resampling the data, which can cause overfitting by replicating observations from the minority class. Therefore, it is hard to say which model is better at this point.
-* In order to have a better call on which model performs better with the given dataset, we should conduct a validation test to see if the model is overfitting.
+* In order to have a better call on which model performs better with the given dataset, we should conduct a validation test to see if the model is overfitting. We shouldn't deploy the model at this point.
 
 ## File Paths
 
