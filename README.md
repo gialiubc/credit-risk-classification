@@ -55,7 +55,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Our purpose is to accurately detect high-risk loans, so we care more about the return of false negative than false positive, because we don't want to overlook any risky loan. As we can see from the performance evaluation results, Model 2 performs better than Model 1 with higher recall rate, indicating lower false negative prediction. However, we need to take into account the set back of resampling the data, which can cause overfitting by replicating observations from the minority class. Therefore, it is hard to say which model is better at this point.
-* In order to have a better call on which model performs better with the given dataset, we should conduct a validation test to see if the model is overfitting. We shouldn't deploy the model at this point.
+* In order to have a better call on which model performs better with the given dataset, we should conduct a validation test to see if the model is overfitting. Also, we should standardize the dataset in order to have the values in the similar scales. In conclusion, we shouldn't deploy the model at this point.
 
 ## File Paths
 
